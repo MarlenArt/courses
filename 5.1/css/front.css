@@ -1,0 +1,124 @@
+body{
+    margin: 0 auto;
+    background-color: #222222;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+/* header  */
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 60px 0 60px;
+
+}
+.devros img{
+    width: 177px;
+    height: 55px;
+}
+.header_menu{
+    display: flex;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: space-around;
+}
+.menu{
+    padding: 12px 38px;
+}
+a{
+    color: grey;
+    text-decoration-line: none;
+}
+a:hover{
+    color: white;
+}
+/* skill */
+.skills{
+    height: 60px;
+    background-color: #252525;
+    font-weight: 700;
+    font-size: 36px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+/* main  */
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px 0 ;
+}
+.groups{
+    display: flex;
+    justify-content:flex-start;
+    margin: 10px 0;
+}
+.sub_top{
+    font-size: 20px;
+    font-weight: 700;
+}
+.mini{
+    width: 100px;
+    border: 2px solid #353535;
+}
+.mini_2{
+    width: 36px;
+    border: 1px solid #007CED;
+}
+.groups img{
+    margin-right: 20px;
+}
+.tittle_text{
+    font-size: 16px;
+    font-weight: 800;
+}
+p{
+    width: 550px;
+    margin: 0 0;
+    font-size: 14px;
+}
+.percent{
+    margin: 18px 0;
+}
+.sub_percent{
+    display: flex;
+    justify-content:space-between;
+}
+.border{
+    border: 2px solid #444444;
+    width: 560px;
+    height: 10px;
+    border-radius: 8px;
+}
+.line{
+    border: 2px solid #007CED;
+    background-color: #007CED;
+    height: 4px;
+    border-radius: 8px;
+}
+.two{
+    width: 80%;
+}
+.three{
+    width: 60%;
+}
+.four{
+    width: 35%;
+}
+.five{
+    width: 30%;
+}
+.six{
+    width: 20%;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 57px 10px 60px;
+    border-top: 1px solid grey;
+}
+.footer a{
+    padding: 0 9px;
+}

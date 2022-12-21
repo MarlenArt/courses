@@ -1,0 +1,253 @@
+* {
+	padding: 0;
+	margin : 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	--main-red : #e50914;
+	font-size  : 16px;
+}
+
+.main_wrapper {
+	height             : 694px;
+	width              : 100%;
+	background-image   : url('netflix.jpg');
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	position           : relative;
+}
+
+.main_wrapper:before {
+	content         : "";
+	position        : absolute;
+	top             : 0;
+	left            : 0;
+	right           : 0;
+	bottom          : 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index         : 1;
+}
+
+.header {
+	padding-top: 28px;
+	margin     : 0 56px;
+	z-index    : 2;
+	position   : relative;
+}
+
+.lang {
+	display         : inline-block;
+	/* width           : max-content; */
+	float           : right;
+	/* padding         : 8px 16px; */
+	color           : white;
+	background-color: transparent;
+	border          : 1px solid white;
+	border-radius   : 4px;
+	width: 95px;
+	height: 36px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.button {
+	display         : inline-block;
+	width           : max-content;
+	margin-left     : 28px;
+	padding         : 8px 16px;
+	float           : right;
+	background-color: var(--main-red);
+	border-radius   : 3px;
+	color           : white;
+	text-transform  : capitalize;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.logo {
+	display: inline-block;
+	width  : 134px;
+	fill   : var(--main-red);
+}
+
+.main_search {
+	z-index   : 2;
+	position  : relative;
+	color     : white;
+	text-align: center;
+	max-width : 950px;
+	padding   : 75px 0;
+	margin    : 0 auto;
+}
+
+.main_search h1 {
+	max-width: 640px;
+	font-size: 50px;
+	margin   : 0 auto;
+}
+
+.main_search p {
+	margin   : 24px auto;
+	max-width: 640px;
+}
+
+.main_search p:nth-child(2) {
+	font-size: 24px;
+}
+
+.search_wrapper {
+	max-width : 640px;
+	margin    : 0 auto;
+	box-sizing: border-box;
+	font-size : 18px;
+}
+
+.search_wrapper .button {
+	width      : 20%;
+	margin-left: 0;
+	padding    : 16px 16px;
+}
+
+.input_search {
+	padding  : 16px 4px;
+	width    : 70%;
+	font-size: 14px;
+	border   : none;
+	outline  : none;
+}
+
+
+.container {
+	position: relative;
+	background-color: black;
+	padding         : 70px 45px;
+	color           : white;
+	margin          : 0 auto;
+	display         : flex;
+	justify-content : space-between;
+	border-top      : 10px solid darkgray;
+}
+.left {
+	flex-direction: row-reverse;
+}
+.container .texts {
+	width          : 45%;
+	display        : flex;
+	flex-direction : column;
+	justify-content: center;
+	/* align-items    : center; */
+}
+
+.container .texts h2 {
+	font-size    : 50px;
+	margin-bottom: 12px;
+}
+
+.container .texts p {
+	font-size: 24px;
+}
+
+.container .videos {
+	width          : 45%;
+	display        : flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items    : center;
+
+}
+.container video{
+	position: absolute;
+	top: 155px;
+	left: 770px;
+	width: 393px;
+}
+.tv{
+	width: 100%;
+	z-index: 1;
+}
+	
+.mobile{
+	max-width: 100%;
+}
+.videos p{
+	position: absolute;
+	z-index: 1;
+}
+.st{
+	margin-left: 80px;
+	margin-top: 20px;
+	color: white;
+}
+.down{
+	margin-left: 80px;
+	margin-top: 45px;
+	color: blue;
+}
+.boxshot{
+	width: 51px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.download_gif{
+	width: 57px;
+	height: 60px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.in_mobile{
+	position: relative;
+	border: solid 1px lightgrey;
+	width: 340px;
+	height: 90px;
+	bottom: 120px;
+	background-color: black;
+	border-radius: 20px;
+}
+.container video:nth-child(2){
+	top: 115px;
+	left: 802px;
+	width: 325px;
+}
+
+.footer{
+	padding: 0;
+}
+.list{
+	width: 90%;
+	margin: 0 auto;
+	padding: 70px 180px;
+}
+p{
+	margin: 0 0 30px;
+	padding: 0;
+	font-size: 1em;	
+}
+.footer ul li {
+	display: inline-block;
+	width: 225px;
+	height: 18px;
+	font-size: 15px;
+}
+ul{
+	margin-bottom: 13px;
+}
+a{
+	color: #737373;
+	list-style-type: none;
+	text-decoration: none;
+}
+.footer .lang{
+	margin-top: 30px;
+	float: left;
+	width: 110px;
+	height: 40px;
+	text-align: center;
+	color: #737373;
+	font-size: 15px;
+}

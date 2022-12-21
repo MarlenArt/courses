@@ -1,0 +1,44 @@
+body {
+    background-color: lightslategray;
+}
+.some-block{
+    width: 100%;
+    height: 100px;
+    background-color: lightcoral;
+
+}
+.some-block span{
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    display: inline-block;
+}
+
+.hi_main_block{
+    color: #fff;
+    background-color: #DE3163;
+    height: 100px;
+    font-size: 32px;
+}
+.hi_big_header{
+    color: #fff;
+    background-color: #6495ED;
+}
+.hi_small_header{
+    color: #fff;
+    background-color: #6495ED;
+}
+.hi_texts{
+    background-color: lightskyblue;
+}
+.inline-tags span{
+    color: #fff;
+    background-color: #246a73;
+}
+.inline-tags b{
+    background:#b3fffc;
+}
+.inline-tags button{
+    color: #fff;
+    background-color:#fb62f6;
+}

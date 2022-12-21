@@ -1,0 +1,30 @@
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: lightgrey ;
+    position: relative ;
+}
+.block{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.red{
+    background-color: red;
+    top: 150px;
+    left: 150px;
+}
+.blue{
+    background-color: blue;
+    top: 75px;
+    right: 200px;
+}
+.orange{
+    background-color: orange;
+    right: 90px;
+    bottom: 120px;
+}
+.green {
+    background-color: green;
+    bottom: 0;
+}

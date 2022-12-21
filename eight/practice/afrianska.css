@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+.header{
+    padding: 48px 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+.lines{
+    width: 24px;
+    height: 2px;
+    background-color: blue;
+}
+.blue_back{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.names{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:60px;
+}
+.name_back{
+    font-size: 44px;
+    font-weight: 900;
+}
+.container{
+    padding: 56px 213px 133px 213px;
+}
+button{
+    width: 100%;
+    height: 56px;
+    border: 0 ;
+    background-color: lightgrey;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.top_name{
+    font-size: 40px;
+    font-weight: 900;
+    color: #1F3F68;
+}
+.description p{
+    width: 380px;
+    margin-bottom: 115px;
+}
+/* .top_img{
+    width: 50%;
+} */
+.top_img img{
+    width: 100%;
+}
+.first{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1F3F68;
+    margin-bottom: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 32%;
+    min-width: 15%;
+    gap: 10px;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+.card_title{
+    font-weight: 700;
+    font-size: 22px;
+    color: #1F3F68;
+}
+.card_img img{
+    width: 100%;
+}
+
+
+.footer{
+    background-color: #316099;
+    border-radius: 0 200px 0 0;
+    color: white;
+    padding: 154px 406px 64px 213px;
+}
+.footer_infos{
+    display: flex;
+    gap: 130px;
+    margin-bottom: 64px;
+}
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_main{
+    font-size:28px;
+    font-weight: 900;
+}
+.footer_sub{
+    font-size: 20px;
+    font-weight:900;
+}

@@ -1,0 +1,13 @@
+body{
+    margin: 0 ;
+}
+.header{
+    position: fixed; 
+    background-color: pink;
+    top: 0;
+    height: 70px;
+    width: 100%;
+}
+p{
+    margin-top: 80px;
+}

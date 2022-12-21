@@ -1,0 +1,66 @@
+*{
+    margin: 0 auto;
+}
+/* first homework */
+main{
+    background-image: url(wall.jpg);
+    background-size: cover;
+}
+.icons img{   
+    width: 100px;
+    height: 100px;
+    transition:  8s; 
+    margin: 50px ;
+}
+.icons img:hover{
+    /* margin: 0; */
+    /* width: 200px;
+    height:200px; */
+    rotate: 10000deg;
+}
+.light{
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;   
+    object-fit: cover; 
+}
+/* second homework */
+.text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+    
+}
+.big{
+    font-size: 40px;
+}
+.average{
+    font-size: 25px;
+}
+.small{
+    font-size: 10px;
+}
+.mid{
+    text-align: center;
+}
+.right{
+    text-align:right;
+}
+.big-int{
+    letter-spacing: 5px;
+}
+.biggest-int{
+    letter-spacing: 15px;
+}
+.little-int{
+    letter-spacing: 0.1px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}

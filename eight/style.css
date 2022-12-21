@@ -1,0 +1,339 @@
+/* global settings */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin : 0;
+	padding: 0;
+}
+
+.container {
+	width     : 100%;
+	padding   : 0 200px;
+	box-sizing: border-box;
+}
+
+.wrapper_with_padding {
+	padding: 40px 0;
+}
+
+/* ------------------------- */
+
+/* main contanier */
+.main_container {
+	padding-bottom: 40px;
+}
+
+.main_page_content {
+	padding-top   : 40px;
+	display       : flex;
+	flex-direction: column;
+	gap           : 30px;
+}
+
+.main_page_content .text {
+	display        : flex;
+	justify-content: space-between;
+	align-items    : flex-end;
+}
+
+.main_page_content .text .name {
+	font-size  : 24px;
+	font-weight: bold;
+}
+
+.lang {
+	rotate   : -90deg;
+	transform: translateX(50%);
+}
+
+.img {
+	width: 100%;
+}
+
+.img img {
+	width: 100%;
+}
+.img .denis_mobile{
+	display: none;
+}
+
+/* ----------------------------- */
+
+/* header */
+.menu__box {
+	display        : flex;
+	justify-content: space-between;
+	border-bottom  : 1px solid black;
+	padding        : 32px 0;
+	list-style-type: none;
+}
+.menu__box .lang{
+	display: none;
+}
+.menu__item{
+	text-decoration: none;
+	text-transform : capitalize;
+	color          : gray;
+}
+#menu__toggle{
+	display: none;
+}
+.link.active {
+	color      : black;
+	font-weight: bold;
+}
+
+/* -------------------------- */
+
+
+/* about container */
+.about_container, .portfolio {
+	/* background-color: #F6F6	F6; */
+	background-color: lightblue;
+}
+
+.about_name{
+	display        : flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items    : center;
+	gap            : 30px;
+	width          : 40%;
+	margin         : 0 auto;
+	text-align     : center;
+}
+
+/* ------------------------- */
+
+.skills_container {
+	/* background-color: lightgreen; */
+}
+
+
+.skills_name{
+	text-align: center;
+}
+.skills_name h2{
+	font-size: 34px;
+}
+.programs{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 80px 0;
+}
+.icons{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 30px;
+}
+.stars{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.portfolio_name{
+	font-size: 34px;
+}
+.image_wrap{
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
+.image{
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+}
+.image_describe{
+	text-align: center;
+}
+.img .denis_mobile{
+	display: none;
+}
+/* contacts */
+.contacts{
+	text-align: center;
+}
+.contacts h2{
+	font-size: 34px;
+	font-weight: bold;
+}
+.contacts button{
+	background-color: black;
+	color: white;
+	width: 180px;
+	height: 42px;
+	border-radius: 45px;
+	margin-top: 30px;
+}
+.contact_icons{
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+	margin: 85px 0 45px 0;
+}
+.contact_p{
+	text-align: center;
+}
+
+@media screen and (max-width:375px){
+	.container{
+		padding: 0 30px;
+	}
+	/* burger */
+	#menu__toggle {
+		opacity: 0;
+	}
+	  
+	#menu__toggle:checked ~ .menu__btn > span {
+	transform: rotate(45deg);
+	}
+	#menu__toggle:checked ~ .menu__btn > span::before {
+		top: 0;
+		transform: rotate(0);
+	}
+	#menu__toggle:checked ~ .menu__btn > span::after {
+		top: 0;
+		transform: rotate(90deg);
+	}
+	#menu__toggle:checked ~ .menu__box {
+		visibility: visible;
+		left: 0;
+	}
+	
+	.menu__btn {
+		display: flex;
+		align-items: center;
+		position: fixed;
+		top: 30px;
+		right: 20px;
+		
+		width: 26px;
+		height: 26px;
+		
+		cursor: pointer;
+		z-index: 1;
+	}
+	
+	.menu__btn > span,
+	.menu__btn > span::before,
+	.menu__btn > span::after {
+		display: block;
+		position: absolute;
+		
+		width: 100%;
+		height: 2px;
+		
+		background-color: #616161;
+		
+		transition-duration: .25s;
+	}
+	.menu__btn > span::before {
+		content: '';
+		top: -8px;
+	}
+	.menu__btn > span::after {
+		content: '';
+		top: 8px;
+	}
+	
+	.menu__box {
+		display: block;
+		position: fixed;
+		visibility: hidden;
+		top: 0;
+		left: -100%;
+		
+		width: 300px;
+		height: 100%;
+		
+		margin: 0;
+		padding: 80px 0;
+		
+		list-style: none;
+		
+		background-color: #ECEFF1;
+		box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+		
+		transition-duration: .25s;
+		
+	}
+	.hamburger-menu .lang{
+		display: block;
+		margin-top: 150px;
+		margin-left: 210px;
+	}
+	.menu__item {
+		display: block;
+		padding: 12px 24px;
+		
+		color: #333;
+		
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		font-weight: 600;
+		
+		text-decoration: none;
+		
+		transition-duration: .25s;
+	}
+	.menu__item:hover {
+		background-color: #CFD8DC;
+	}
+	.text .lang{
+		display: none;
+	}
+	.main_page_content{
+		padding-top: 30px;
+	}
+	.main_page_content .text{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 27px;
+	}	
+	.img .denis_mobile{
+		display: block;
+	}
+	.img .denis_main{
+		display: none;
+	}
+	.main_container{
+		padding-bottom: 80px;
+	}
+
+
+	.about_name{
+		width: 100%;
+	}
+	.programs{
+		/* flex-direction: column; */
+		justify-content: space-around;
+		padding-top: 70px;
+		gap: 70px;
+	}
+
+	.portfolio_name{
+		font-size: 34px;
+		text-align: center;
+	}
+	.image_wrap{
+		gap: 77px;
+	}
+	.image{
+		gap: 30px;
+	}
+	.contacts button{
+		width: 100%;
+	}
+}

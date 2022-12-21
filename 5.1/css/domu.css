@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    background-color: #222222;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 60px 0 60px;
+
+}
+.devros img{
+    width: 177px;
+    height: 55px;
+}
+.header_menu{
+    display: flex;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: space-around;
+}
+.menu{
+    padding: 12px 38px;
+}
+a{
+    color: grey;
+    text-decoration-line: none;
+}
+a:hover{
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 43px;
+}
+.ellips img{
+    width: 350px;
+    height: 350px;
+    border: 8px solid #444444;
+    border-radius: 250px;
+}
+
+.description div{
+    color: rgba(255, 255, 255, 0.5);
+}
+.description h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+.description p{
+    width: 600px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.description .button{
+    width: 177px;
+    height: 62px;
+    border: 3px solid #007CED;
+    border-radius: 30px;
+    color: white;
+    background: #333333;
+    font-size: 20px;
+}
+.button.kontakt{
+    border: 3px solid white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 57px 10px 60px;
+    border-top: 1px solid grey;
+}
+.footer a{
+    padding: 0 9px;
+}

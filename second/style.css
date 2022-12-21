@@ -1,0 +1,18 @@
+/* .div{
+    background-color: lightblue;
+    width: 50%;
+    height: 80px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.wrapper{
+    background-color: lightgray;
+    height: 80vh;
+    width: 80vw;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}

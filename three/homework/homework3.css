@@ -1,0 +1,19 @@
+main{
+    width: 500px;
+    background-color: lightgray;
+    padding: 10px 20px;
+}
+.pic{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+}
+.pic:nth-of-type(even){
+    float: left;
+    margin-right: 20px;
+}
+.pic:nth-of-type(odd){
+    float: right;
+    margin-left: 20px;
+}

@@ -1,0 +1,40 @@
+.container{
+    position: relative;
+    cursor: pointer;
+}
+.input{
+    position: absolute;
+    opacity: 0;
+}
+.item{
+    position: absolute;
+    top: -5px;
+    right: -30px;
+    background-color: lightgray;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.container .input:checked~.item{
+    background-color: blue;
+}
+.item::after{
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    height: 0;
+    width: 0;
+    content: "";
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    rotate: -45deg;
+    opacity: 0;
+    border-radius: 2px;
+    transition: all 1s ease-in-out;
+}
+.container .input:checked~.item:after{
+    width: 12px;
+    height: 6px;
+    opacity: 1;
+}
