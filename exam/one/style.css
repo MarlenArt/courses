@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding:0;
+    color: white;
+    background-color: #000000;
+}
+.sign{
+    display: flex;
+    flex-wrap: wrap;
+    height: 44px;
+    font-size: 14px;
+    color: #969696;
+    padding: 0 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub_sign{
+    display: flex;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+}
+
+.header{
+    background-color: #0F0F0F;
+    display: flex;
+    padding: 0 150px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+.menu{
+    display: flex;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #969696;
+    align-items: center;
+    text-align: center;
+}
+.name_menu{
+    width: 160px;
+}
+.icon_menu{
+    padding: 0 20px;
+}
+.porten{
+    background-image: url(img/main_png.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.porten_box{
+    border: 4px solid white;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 90px 65px;
+    box-sizing: border-box;
+}
+.porten_name{
+    font-size:40px;  
+    border-bottom: 2px solid white; 
+}
+.porten p{
+    width: 550px;
+    text-align: center;
+}
+
+.season2020{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.watchs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    gap: 20px;
+}
+.watch{
+    /* width: 220px; */
+    /* height: 340px; */
+}
+.watch_img{
+    background-color: #191B1C;
+}
+.watch_name{
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+.photo img{
+    width: 630px;
+}
+.season_title{
+    font-size: 36px;
+    text-align: center;
+    margin: 50px 0;
+}
+hr{
+    width: 100px;
+}
+.collection_2018{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 135px;
+}
+.collection_2018_text{
+    text-align: center;
+    width: 500px;
+}
+.collection_2018_title{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.collection_2018_text p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.collection_2018_text button{
+    margin-top: 30px;
+    width: 250px;
+    height: 35px;
+    background-color: inherit;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.news_name{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 100px 0 80px 0;
+}
+.new_watchs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0 150px 100px 150px;
+}
+.brands_title{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.brands{
+    background-color: #0F0F0F;
+    padding: 60px 150px 80px 150px;
+}
+.brands_img{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_img{
+    background-image: url(img/footer.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 50px;
+}
+.footer_title{
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+.footer_text{
+    width: 450px;
+}
+.category_btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.category_btn{
+    background-color: #000000;
+    width: max-content;
+    height: 41px;
+    padding: 10px 20px;
+}
+.footer_sign{
+    padding-top: 37px;
+}
+.gmail{
+    background: rgba(255, 255, 255, 0.4);
+    width: 210px;
+    height: 42px;
+    border: none;
+    color: white;
+}
+.subcribe{
+    width: 140px;
+    height: 41px;
+    background-color: black;
+    border: none;
+    color: white;
+}
