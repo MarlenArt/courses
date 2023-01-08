@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background: #EEEFF1;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.header_title{
+    font-family: 'Revalia';
+    font-weight: 400;
+    font-size: 48px;
+    color: #34547A;
+}
+.menus{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.design{
+    background: #EEEFF1;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+
+}
+.design_title{
+    font-weight: 500;
+    font-size: 48px;
+    padding-bottom: 45px;
+}
+.design_text{
+    width: 480px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.design_block button{
+    width: 200px;
+    height: 65px;
+    background-color: #34547A;
+    color: white;
+    border: none;
+}
+.about{
+    padding: 100px 0;
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+}
+h4{
+    padding: 50px 0 100px 0;
+    text-align: center;
+    line-height: 26px;
+    width: 480px;
+    margin: 0 auto;
+    color: #727272;
+}
+.about_projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 180px;
+    background: #34547A;
+    height: 250px;
+}
+.about_project{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 0 100px;
+}
+.skills_img{
+    width: 555px;
+}
+.skills_img img{
+    width: 100%;
+}
+.skills_title{
+    font-weight: 500;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+.skill_name{
+    color: #727272;
+    padding-bottom: 20px;
+}
+.white{
+    width: 400px;
+    border: 1px solid #C4C4C4;
+    background-color: #C4C4C4;
+    margin-bottom: 30px;
+}
+.blue{
+    width: 80%;
+    border: 1px solid #34547A;
+}
+.work{
+    background: #EEEFF1;
+    padding: 100px 0;
+}
+.work h4{
+    padding-bottom: 55px;
+}
+.work_img{
+    width: 900px;
+    margin: 0 auto;
+}
+.work_img img{
+    width: 100%;
+}
+.photos{
+    padding: 30px 0 80px 0;
+}
+.photos2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photos_img{
+    width: 341px;
+}
+.photos_img img{
+    width: 100%;
+    height: 100%;
+}
+.microsoft{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 70px;
+}
+.site{
+    padding: 100px 0;
+}
+.site_quiz{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 345px;
+    gap: 30px;
+    font-size: 14px;
+}
+.one{
+    width: 250px;
+    height: 55px;
+}
+.two{
+    width: 540px;
+    height: 150px;
+}
+.submit{
+    width: 190px;
+    height: 55px;
+    background: #34547A;
+    color: white;
+}
+.footer{
+    background-color: #34547A;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    color: white;
+    padding: 0 100px;
+    align-items: center;
+}
+.right_name{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 21px;
+}
+.right_c{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 13px;
+}
+.footer_left{
+    display: flex;
+    gap: 20px;
+}
